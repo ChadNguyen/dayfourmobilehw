@@ -1,0 +1,126 @@
+body{
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    display: grid;
+    background-color: black;
+}
+
+.container{
+    display: grid;
+    grid-template-columns:auto ;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "header header header header"
+    "main main main main main main"
+   
+} 
+
+.topNav{
+    display: grid;
+    grid-area: header;
+    margin: 5px;
+    position: relative;
+    justify-content: center;
+    margin-left: 20px;
+    color: white;
+    background-color: black;
+
+}
+
+header{
+    grid-area: header;
+    align-content: center;
+    margin-left: 10px auto;
+    margin-right: 0 auto;
+    background-color: black;
+    justify-content: center;
+    color: white;
+}
+
+.header{
+    grid-area: header;
+    align-content: center;
+    margin-left: 10px auto;
+    margin-right: 0 auto;
+    background-color: black;
+    justify-content: center;
+    color: white;
+}
+
+
+.topNav{
+    margin: 0 auto;
+    justify-content: center;
+    column-gap: 5px;
+    position: relative;
+    grid-area: header;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.heroIMG{
+    background-image:url(./images/background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 960px;
+    width: auto;
+    color: white;
+    grid-area: header;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    padding: 
+    border: 2px solid black; 
+    
+}
+
+.main-1{
+    grid-area: main;
+    justify-content: center;
+}
+
+#main-2{
+    grid-area: main;
+    justify-content: center;
+}
+
+#main-3{
+    grid-area: main;
+    justify-content: center;
+}
+
+#main-4{
+    grid-area: main;
+    justify-content: center;
+}
+
+.showtime{
+    grid-area: main;
+    justify-content: center;
+    padding-left: 150px;
+    font-size: 25px;
+    margin-left: 100px;
+    padding-top: 25px;
+}
+
+.footerImg{
+    grid-area: img;
+    
+}
+
+.navOne{
+    grid-area: navOne;
+}
+
+.navTwo{
+    grid-area: navTwo;
+}
+
+.navThree{
+    grid-area: navThree;
+}
+
+
+
